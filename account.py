@@ -1,21 +1,23 @@
 
 
 # Task 4
-#will display the balance
+# will display the balance
 def show_balance(balance):
     print("Current Balance: $" + str(balance))
 
 # will ask the user to enter amount to deposit
+
+
 def deposit():
     return float(input("Enter amount to deposit: "))
 
 
-# will ask the user to enter amount to be withdrawn 
+# will ask the user to enter amount to be withdrawn
 def withdraw(balance):
-    amountList = [20,40,60,80,100,200]
-    #bonus 3
-    #display fast menu to withdraw from
-    #start loop
+    amountList = [20, 40, 60, 80, 100, 200]
+    # bonus 3
+    # display fast menu to withdraw from
+    # start loop
     while True:
         print("                  === Select an amount to withdraw ===     ")
         print(" ---------------------------------------------------------------")
@@ -44,7 +46,12 @@ def withdraw(balance):
         else:
             print("Where are you going to get that kind of money?")
             return 0
-    #end loop
+    # end loop
+
+    def testFunc():
+        print("I just created this function to test brances")
 # will say goodbye to the current user
+
+
 def logout(name):
     print('Goodbye', name + "!")
